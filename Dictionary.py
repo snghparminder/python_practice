@@ -25,7 +25,11 @@ my_dic={"company":"Hundai",
 #to add item in dictionary
 # my_dic["colour"]="Red"
 # print(my_dic)
-
+#to copy values to another dictionary
+my_dic={"company":"Hundai",
+        "model":"i0","year":2022}
+mydic2=my_dic.copy()
+print(mydic2)
 
 
 
